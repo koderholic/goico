@@ -1,0 +1,37 @@
+{
+  "name": "vue-case",
+  "version": "1.0.0",
+  "description": "A boiler plate for vuejs application with webpack defined ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "cross-env NODE_ENV=development webpack-dev-server --config=build/webpack.dev.config.js ",
+    "build": "cross-env NODE_ENV=production webpack -p --config=build/webpack.prod.config.js --progress --hide-modules"
+  },
+  "author": "Diginex",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.1.0",
+    "axios": "^0.18.0",
+    "cross-env": "^5.2.0",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.4.2",
+    "vue-router": "^3.0.1",
+    "webpack-merge": "^4.1.4"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "url-loader": "^1.1.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
